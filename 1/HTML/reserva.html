@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> ✈️ Reserva de Vuelo ✈️</title>
+  <link rel="stylesheet" href="../CSS/reserva.css">
+  <link rel="stylesheet" href="../index.html">
+</head>
+<body>
+
+  <div class="contenedor">
+    <main class="formulario">
+      <h1>Reserva tu vuelo</h1>
+
+      <form action="#">
+        <label for="origen">Origen:</label>
+        <input type="text" id="origen" name="origen" placeholder="Ej. Santiago" required>
+
+        <label for="destino">Destino:</label>
+        <input type="text" id="destino" name="destino" placeholder="Ej. Buenos Aires" required>
+
+        <label for="fecha">Fecha de vuelo:</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <label for="pasajeros">Número de pasajeros:</label>
+        <input type="number" id="pasajeros" name="pasajeros" min="1" max="6" value="1" required>
+      
+        <button type="submit">Reservar vuelo</button>
+      </form>
+
+      <h2>Ingresa tu correo electrónico</h2>
+      <form action="#">
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required><br><br>
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+
+    <aside class="destinos">
+      <h2>Destinos en Chile 🇨🇱</h2>
+      <ul>
+        <li>Santiago</li><img src="../IMAGENES/Santiago.png" width="100px" height="90px">
+        <li>Puerto Montt</li><img src="../IMAGENES/Puerto montt.png" width="100px" height="90px">
+        <li>La Serena</li><img src="../IMAGENES/La serena.png" width="100px" height="90px">
+      </ul>
+
+      <h2>Destinos Internacionales 🌍</h2>
+      <ul>
+        <li>Lima, Perú</li><img src="../IMAGENES/Peru.png" width="100px" height="90px">
+        <li>Buenos Aires, Argentina</li><img src="../IMAGENES/Buenos Aires.png" width="100px" height="90px">
+        <li>Madrid, España</li><img src="../IMAGENES/Madrid.png" width="100px" height="90px">
+        <li>Miami, EE.UU.</li><img src="../IMAGENES/Miami.png" width="100px" height="90px">
+      </ul>
+    </aside>
+  </div>
+
+  <section id="beneficios">
+    <h2 style="text-align: center;">Beneficios para nuestros usuarios</h2>
+    <ul>
+      <li style="text-align: center;">Vuelos económicos en Latinoamérica</li>
+      <li style="text-align: center;">50% de descuento en maletas para viajes internacionales</li>
+      <li style="text-align: center;">Acceso anticipado a la selección de asientos</li>
+      <li style="text-align: center;">Packs familiares disponibles</li>
+    </ul>
+  </section>
+  
+  <section id="suscripcion">
+    <h2 style="text-align: center;">¡Suscríbete y gana!</h2>
+    <form>
+      <input type="text" placeholder="Nombre completo">
+      <br><br>
+      <input type="email" placeholder="Correo electrónico">
+      <br><br>
+      <input type="submit" value="Suscribirme">
+    </form>
+    <p style="text-align: center;">Recibe un 40% de descuento en tu primer viaje y ofertas exclusivas al correo.</p>
+  </section>
+  
+  <section id="promo">
+    <h2 style="text-align: center;">Promociones Especiales</h2>
+    <ul>
+      <li style="text-align: center;">Elige tu asiento con anticipación</li>
+      <li style="text-align: center;">Hoteles, transporte y actividades opcionales</li>
+    </ul>
+  </section>
+  
+  <section id="pago">
+    <h2 style="text-align: center;" >Métodos de Pago</h2>
+    <p style="text-align: center;">Selecciona tu asiento y paga fácilmente. Una vez confirmado, recibirás tu ticket de viaje directamente en tu correo.</p>
+  </section>
+  
+
+  <p>&copy; 2025 ✈️ Aero Nova / Agencia de Viajes ✈️</p>
+
+</body>
+</html>

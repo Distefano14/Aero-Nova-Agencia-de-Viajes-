@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .formulario {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .destinos {
+    flex: 1;
+    min-width: 250px;
+    background-color: slategrey;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(3, 236, 15, 0.1);
+  }
+  
+  form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #004aad;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff0000;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  ul li::before {
+    content: "✈️ ";
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  h2 {
+    color: navy;
+    font-size: 20px;
+  }
+  
+
+  ul {
+    padding-left: 20px;
+  }
+  
+  .form-suscripcion {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .form-suscripcion input[type="text"],
+  .form-suscripcion input[type="email"] {
+    padding: 5px;
+    width: 200px;
+  }
+  
+  .form-suscripcion input[type="submit"] {
+    background-color: #004aad;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .form-suscripcion input[type="submit"]:hover {
+    background-color: #ff0000;
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+  
